@@ -30,7 +30,9 @@ public class FIndMinElement {
 
 
         }
-        System.out.println("Array : "+Arrays.toString(arr));
+        System.out.println("Array : " +
+                "" +
+                ""+Arrays.toString(arr));
 
 
         System.out.println("Minimum element from above array "+miniElement(arr));
