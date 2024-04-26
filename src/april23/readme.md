@@ -11,3 +11,15 @@ method overriding ------------> methods with same name and diff param [is - a re
 inheritence 
 supper class --- sub class
 parent --- child class
+
+
+
+Polymorphism 
+
+compile time                        run time
+static polymorphism             dynamic poly
+method overloading                  method overriding
+
+
+
+upcasting............
