@@ -4,3 +4,7 @@ https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/
 
 
 http://localhost:8080
+
+
+
+https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/
