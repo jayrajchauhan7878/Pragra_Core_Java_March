@@ -5,10 +5,9 @@ public class FindSecondMax {
     public static void main(String[] args) {
 
 
-        int[] arr = {10, 30, 43, 54, 23, 543, 43, 32};
+        int[] arr = {10, 30, 68, 64, 23, 543, 43, 32};
 
-        FindSecondMax findSecondMax = new FindSecondMax();
-        findSecondMax.secondMax(arr);
+        System.out.println("Second Largest element is "+secondMax(arr));
 
 
       /*  System.out.println(arr[i]);
@@ -20,13 +19,14 @@ public class FindSecondMax {
 
     }
 
-    public void secondMax(int[] arr){
+    public static int secondMax(int[] arr){
 
 
 
 
         int n = arr.length;
-        int temp;
+        int max = arr[0];
+
 
         for (int i = 0; i < n; i++) {
 
@@ -34,7 +34,7 @@ public class FindSecondMax {
 
                 if (arr[i] > arr[j]){
 
-                    temp = arr[i];
+                    int temp = arr[i];
                     arr[i] = arr[j];
                     arr [j] = temp;
 
@@ -45,6 +45,7 @@ public class FindSecondMax {
             }
 
         }
+        return arr[n-2];
 
     }
 
