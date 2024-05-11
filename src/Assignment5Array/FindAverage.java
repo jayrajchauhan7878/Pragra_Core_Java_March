@@ -8,9 +8,9 @@ public class FindAverage {
 
         int[] arr = {10,30,43,54,23,543,43,32};
 
-        int avg = avg(arr);
+        int sum = avg(arr);
 
-        System.out.println("Average of all elements is "+avg);
+        System.out.println("Average of all elements is "+sum);
     }
 
 
@@ -23,11 +23,11 @@ public class FindAverage {
         for (int i = 0; i < n; i++) {
 
             sum = sum + i ;
-            average = sum / n;
+
 
 
         }
 
-        return average;
+        return sum;
     }
 }
