@@ -8,26 +8,26 @@ public class FindAverage {
 
         int[] arr = {10,30,43,54,23,543,43,32};
 
-        int sum = avg(arr);
+        float avg = avg(arr);
 
-        System.out.println("Average of all elements is "+sum);
+        System.out.println("Average of all elements is "+avg);
     }
 
 
-    public static int avg(int[] arr){
+    public static float avg(int[] arr){
 
-        int n = arr.length;
-        int sum = 0;
-        int average = 0;
+        float n = arr.length;
+        float sum = 0;
+        float average = 0;
 
         for (int i = 0; i < n; i++) {
 
-            sum = sum + i ;
+            sum = sum + arr[i] ;
 
 
 
         }
 
-        return sum;
+        return average = sum / n;
     }
 }
